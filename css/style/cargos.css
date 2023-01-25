@@ -1,0 +1,38 @@
+.cargos {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-bottom: 4rem;
+    padding: 0 25rem;
+}
+
+.cargos__area,
+.cargos__funcao-titulo,
+.cargos__funcao-salario {
+    font-weight: 500;
+}
+
+.cargos__area,
+.cargos__funcao-titulo {
+    color: var(--preto)
+}
+
+.cargos__area {
+    font-size: 20px;
+}
+
+.cargos__funcao-titulo {
+    font-size: 18px;
+    margin-bottom: 2rem;
+}
+
+.cargos__funcao-salario {
+    font-size: 16px;
+    color: var(--cinza-claro);
+}
+
+.cargos__funcao {
+    border: 1px solid var(--cinza-mais-claro);
+    border-radius: 16px;
+    padding: 1.5rem 1.5rem 1.75rem 1.5rem;
+}

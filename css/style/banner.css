@@ -1,0 +1,51 @@
+.banner,
+.banner-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6rem 20rem;
+    gap: 1rem;
+    text-align: center;
+}
+
+.banner__titulo-principal {
+    font-weight: 600;
+    color: var(--vermelho);
+}
+
+.banner__titulo-secundario {
+    font-weight: 600;
+    font-size: 48px;
+    color: var(--preto);
+    margin: 1.5rem 0 2rem 0;
+}
+
+.banner__titulo-secundario {
+    font-size: 36px;
+}
+
+.banner__texto,
+.banner-secundario__texto {
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--cinza-claro);
+    line-height: 2rem;
+}
+
+.banner-secundario__titulo-principal {
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--vermelho);
+}
+
+.banner-secundario__titulo-secundario {
+    font-weight: 600;
+    font-size: 36px;
+    color: var(--preto);
+}
+
+.banner-secundario__texto {
+    margin-bottom: 2rem;
+}
+
+

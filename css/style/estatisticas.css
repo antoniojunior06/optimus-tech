@@ -1,0 +1,27 @@
+.estatisticas {
+    display: flex;
+    padding: 0 5rem 6rem 5rem;
+}
+
+.estatisticas__bloco {
+    padding: 0 2rem;
+}
+
+.estatisticas__valor {
+    font-size: 60px;
+    font-weight: 600;
+    color: var(--vermelho);
+}
+
+.estatisticas__titulo {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--preto);
+    margin: 0.75rem 0 0.5rem 0;
+}
+
+.estatisticas__texto {
+    font-weight: 400;
+    color: var(--cinza-claro);
+    width: 280px;
+}

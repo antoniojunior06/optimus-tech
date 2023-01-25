@@ -1,0 +1,25 @@
+@import url("style/cabecalho.css");
+@import url("style/banner.css");
+@import url("style/estatisticas.css");
+@import url("style/cargos.css");
+@import url("style/depoimentos.css");
+@import url("style/rodape.css");
+
+:root {
+    --fonte: "Inter";
+    --cinza: #3A404E;
+    --cinza-claro: #667085;
+    --vermelho: #8E2424;
+    --branco: #FFFFFF;
+    --preto: #101828;
+    --cinza-mais-claro: #EAECF0;
+    --cinza-intermediário: #98A2B3;
+    --cinza-caixa: #D0D5DD;
+    --background-rosa: rgba(196, 25, 25, 0.03);
+    --background-cinza: #F9FAFB;
+}
+
+body {
+    font-family: var(--fonte);
+}
+
